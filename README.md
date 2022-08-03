@@ -1,2 +1,4 @@
-# CondoPlus
-Software em Java para gerenciamento de prédio residencial
+# JavaFX CRUDL demo desktop application
+Software developed in Java for residential building management 
+
+#Tools⚒️
