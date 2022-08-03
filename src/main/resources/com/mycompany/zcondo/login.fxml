@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.zcondo.LoginController">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #5F9EA0;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="307.0" fitWidth="308.0" layoutX="22.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@apartamentobranco.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="500.0" prefWidth="430.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="usuarioTextField" layoutX="85.0" layoutY="202.0" onKeyTyped="#onUserTyped" prefHeight="27.0" prefWidth="180.0" promptText="Usuário" style="-fx-background-color: transparent; -fx-border-color: #5F9EA0; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField fx:id="senhaPasswordField" layoutX="85.0" layoutY="266.0" onInputMethodTextChanged="#login" prefHeight="27.0" prefWidth="180.0" promptText="Senha" style="-fx-background-color: transparent; -fx-border-color: #5F9EA0; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button layoutX="185.0" layoutY="358.0" mnemonicParsing="false" onAction="#login" prefHeight="31.0" prefWidth="80.0" style="-fx-background-color: #5F9EA0;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Text fill="#ffb90f" layoutX="114.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="121.13671875">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

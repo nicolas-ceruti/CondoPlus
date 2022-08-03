@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.zcondo.MoradoresController">
+   <children>
+      <TableView fx:id="moradoresTabela" layoutX="23.0" layoutY="73.0" prefHeight="355.0" prefWidth="655.0" style="-fx-border-color: #5F9EA0;">
+        <columns>
+          <TableColumn fx:id="nomeMoradorColumn" editable="false" prefWidth="320.0" sortable="false" text="Nome" />
+          <TableColumn fx:id="apartamentoMoradorColumn" editable="false" prefWidth="333.0" sortable="false" text="Apartamento" />
+        </columns>
+      </TableView>
+      <Text layoutX="60.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MORADORES" wrappingWidth="136.51025390625">
+         <font>
+            <Font name="Candara Light" size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="23.0" layoutY="21.0" mnemonicParsing="false" onAction="#voltar" prefHeight="15.0" prefWidth="30.0" style="-fx-background-color: #ffffff; -fx-border-color: #5F9EA0;" text="&lt;" />
+      <Button fx:id="bntCriar" layoutX="608.0" layoutY="452.0" mnemonicParsing="false" onAction="#novoMorador" prefHeight="34.0" prefWidth="70.0" style="-fx-background-color: #5F9EA0;" text="Novo" textFill="WHITE" />
+      <Button fx:id="Bntalterar" layoutX="530.0" layoutY="452.0" mnemonicParsing="false" onAction="#editar" prefHeight="34.0" prefWidth="70.0" style="-fx-background-color: #5F9EA0;" text="Editar" textFill="WHITE" />
+      <Button fx:id="bntDelete" layoutX="451.0" layoutY="452.0" mnemonicParsing="false" onAction="#remover" prefHeight="34.0" prefWidth="70.0" style="-fx-background-color: #5F9EA0;" text="Remover" textFill="WHITE" />
+   </children>
+</AnchorPane>

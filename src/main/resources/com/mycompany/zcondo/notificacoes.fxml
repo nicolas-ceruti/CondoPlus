@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.zcondo.NotificacoesController">
+   <children>
+      <Text layoutX="61.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" NOTIFICAÇÕES" AnchorPane.leftAnchor="61.0">
+         <font>
+            <Font name="Candara Light" size="21.0" />
+         </font>
+      </Text>
+      <TableView fx:id="notificacaoTabela" layoutX="31.0" layoutY="73.0" prefHeight="355.0" prefWidth="655.0" style="-fx-border-color: #5F9EA0;" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="30.0">
+        <columns>
+          <TableColumn fx:id="moradorNotificacaoColumn" prefWidth="166.0" text="Morador" />
+          <TableColumn fx:id="mensagemNotificacaoColumn" prefWidth="336.0" text="Mensagem" />
+            <TableColumn fx:id="dataNotificacaoColumn" minWidth="0.0" prefWidth="135.0" text="Data" />
+        </columns>
+      </TableView>
+      <Button layoutX="31.0" layoutY="22.0" mnemonicParsing="false" onAction="#voltar" prefHeight="15.0" prefWidth="30.0" style="-fx-background-color: #ffffff; -fx-border-color: #5F9EA0;" text="&lt;" />
+      <Button fx:id="bntCriar" layoutX="600.0" layoutY="452.0" mnemonicParsing="false" onAction="#novaNotificacao" prefHeight="34.0" prefWidth="70.0" style="-fx-background-color: #5F9EA0;" text="Novo" textFill="WHITE" />
+      <Button fx:id="Bntalterar" layoutX="522.0" layoutY="452.0" mnemonicParsing="false" onAction="#editar" prefHeight="34.0" prefWidth="70.0" style="-fx-background-color: #5F9EA0;" text="Editar" textFill="WHITE" />
+      <Button fx:id="bntDelete" layoutX="443.0" layoutY="452.0" mnemonicParsing="false" onAction="#remover" prefHeight="34.0" prefWidth="70.0" style="-fx-background-color: #5F9EA0;" text="Remover" textFill="WHITE" />
+   </children>
+</AnchorPane>

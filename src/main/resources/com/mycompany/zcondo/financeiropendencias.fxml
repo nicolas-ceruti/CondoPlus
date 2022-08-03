@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.zcondo.FinanceiroController">
+   <children>
+      <Text layoutX="70.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PENDÊNCIAS" wrappingWidth="136.51025390625">
+         <font>
+            <Font name="Candara Light" size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="33.0" layoutY="29.0" mnemonicParsing="false" onAction="#voltar" prefHeight="26.0" prefWidth="30.0" style="-fx-background-color: #ffffff; -fx-border-color: #5F9EA0;" text="&lt;" />
+      <TableView layoutX="90.0" layoutY="75.0" prefHeight="350.0" prefWidth="520.0" style="-fx-border-color: #5F9EA0;">
+        <columns>
+          <TableColumn prefWidth="237.0" text="Morador" />
+          <TableColumn prefWidth="241.0" text="Pendências" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
