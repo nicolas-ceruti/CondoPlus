@@ -41,7 +41,7 @@ IMPORT
 - Create the database in MySQL;
 
 ![DataBase part. 1](https://user-images.githubusercontent.com/79486020/182748170-c8f2e692-2bac-459f-a848-8aaeb0ce2a8b.png)
-![DataBase part. 2](https://user-images.githubusercontent.com/79486020/182748227-93264993-7989-418c-b37e-660e52021a83.png)
+![DataBase part. 2](https://user-images.githubusercontent.com/79486020/182748422-60eba3ec-edac-4b19-bfe2-d70e205b07e3.png)
 
 
 ## 📋 License
