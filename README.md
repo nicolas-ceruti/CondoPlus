@@ -22,6 +22,8 @@ Software developed in Java for residential building management
 - `MySQKWorkbench`: DataBase
 - `XAMPP`: Server
 - `StarUML`: Diagrams
-- 
+
+## :picture: Pictures
+
 
 
