@@ -23,7 +23,7 @@ Software developed in Java for residential building management
 - `XAMPP`: Server
 - `StarUML`: Diagrams
 
-## :picture: Pictures
+## 📷 Pictures
 
 
 
