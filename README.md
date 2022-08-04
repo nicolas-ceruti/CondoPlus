@@ -35,15 +35,10 @@ Software developed in Java for residential building management
 - `Java IDE`
 - `MySQLWorbench`
 
+IMPORT
 
-class ExampleDiFactory extends DiFactory
-{
-    // code
-}
-
-
-Import as a maven project in your favorite IDE
-Create the database in MySQL
+[]Import as a maven project in your favorite IDE
+[]Create the database in MySQL
 
 
 ## 📋 License
