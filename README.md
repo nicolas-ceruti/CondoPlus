@@ -30,15 +30,15 @@ Software developed in Java for residential building management
  
 ## 📌 Run
 
--- Prerequisites
+PREREQUISITES
 - `Java`
 - `Java IDE`
 - `MySQLWorbench`
 
 IMPORT
 
-[]Import as a maven project in your favorite IDE
-[]Create the database in MySQL
+🔘 Import as a maven project in your favorite IDE;
+🔘 Create the database in MySQL;
 
 
 ## 📋 License
