@@ -36,11 +36,11 @@ Software developed in Java for residential building management
 - `MySQLWorbench`
 
 
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <h1>Olá Mundo</h1>
-  </div>
-</div>
+class ExampleDiFactory extends DiFactory
+{
+    // code
+}
+
 
 Import as a maven project in your favorite IDE
 Create the database in MySQL
