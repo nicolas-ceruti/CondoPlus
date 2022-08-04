@@ -30,7 +30,7 @@ Software developed in Java for residential building management
 
 ## 📌 Run
 
-#Prerequisites
+-- Prerequisites
 - `Java`
 - `Java IDE`
 - `MySQLWorbench`
