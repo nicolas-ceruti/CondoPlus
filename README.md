@@ -25,5 +25,6 @@ Software developed in Java for residential building management
 
 ## 📷 Pictures
 
+https://github.com/nicolas-ceruti/CondoPlus/issues/1#issue-1327951344
 
 
