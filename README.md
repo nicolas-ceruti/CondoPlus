@@ -17,11 +17,11 @@ Software developed in Java for residential building management
 
 ## :hammer: Tools
 
-- `NetBeans 14`: Code
-- `Scene Builder`: FXML Interface
-- `MySQKWorkbench`: DataBase
-- `XAMPP`: Server
-- `StarUML`: Diagrams
+- `NetBeans 14`: Code;
+- `Scene Builder`: FXML Interface;
+- `MySQKWorkbench`: DataBase;
+- `XAMPP`: Server;
+- `StarUML`: Diagrams;
 
 ## 📷 Screen Pictures
 
