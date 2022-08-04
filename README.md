@@ -39,6 +39,7 @@ IMPORT
 
 - Import as a maven project in your favorite IDE;
 - Create the database in MySQL;
+- Switch root password at "ConnectionSingleton" class;
 
 ![Captura de Tela (11)](https://user-images.githubusercontent.com/79486020/182748809-02605223-86b7-47ba-907f-69578e67a3d4.png) ![Captura de Tela (10)](https://user-images.githubusercontent.com/79486020/182748825-f54fd742-53e7-4558-bba1-9c1fed6c3745.png)
 
