@@ -7,7 +7,7 @@ Software developed in Java for residential building management
 
 
 
-## :hammer: Functionalities
+## :gear: Functionalities
 
 - `Schedule`: possibility to reserve spaces and create events
 - `Providers`: list of service providers
@@ -15,5 +15,12 @@ Software developed in Java for residential building management
 
 
 ## :hammer: Tools
+
+- `NetBeans 14`: Code
+- `Scene Builder`: FXML Interface
+- `MySQKWorkbench`: DataBase
+- `XAMPP`: Server
+- `StarUML`: Diagrams
+- 
 
 
