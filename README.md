@@ -14,6 +14,7 @@ Software developed in Java for residential building management
 - `Notifications`: notification tab to issue notices and announcements
 
 
+
 ## :hammer: Tools
 
 - `NetBeans 14`: Code
