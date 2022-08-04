@@ -37,8 +37,8 @@ PREREQUISITES
 
 IMPORT
 
-🔘 Import as a maven project in your favorite IDE;
-🔘 Create the database in MySQL;
+- Import as a maven project in your favorite IDE;
+- Create the database in MySQL;
 
 
 ## 📋 License
