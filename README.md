@@ -40,7 +40,8 @@ IMPORT
 - Import as a maven project in your favorite IDE;
 - Create the database in MySQL;
 
-![DataBase part. 1](https://user-images.githubusercontent.com/79486020/182748170-c8f2e692-2bac-459f-a848-8aaeb0ce2a8b.png) ![DataBase part. 2](https://user-images.githubusercontent.com/79486020/182748422-60eba3ec-edac-4b19-bfe2-d70e205b07e3.png)
+![Captura de Tela (11)](https://user-images.githubusercontent.com/79486020/182748809-02605223-86b7-47ba-907f-69578e67a3d4.png) ![Captura de Tela (10)](https://user-images.githubusercontent.com/79486020/182748825-f54fd742-53e7-4558-bba1-9c1fed6c3745.png)
+
 
 
 
